@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted lightgray;
+  padding: 10px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px; /* 将图片的右边距设置为20px */
+}
+
+.productInfo {
+  flex: 1; 
+}
+
+.addToCartButton {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addToCartButton:hover {
+  background-color: black;
+  color: white;
+}
